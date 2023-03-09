@@ -113,3 +113,28 @@ body {
   background-color: var(--color-primary);
   color: var(--color-green-btn);
 }
+
+
+/* hero section styling */
+.hero{
+background-color: var(--color-primary);
+}
+.container{
+margin: 0 auto;
+/* background-color: red; */
+text-align: center;
+}
+.container__h1{
+  font-size: 5rem;
+}
+.hero__btn{
+ text-decoration: none; 
+ background-color: var(--color-green-btn);
+ font-size: 1.6rem;
+ font-weight: 500;
+ color: white;
+ padding: 1rem 3rem;
+ border-radius: 1rem;
+ box-shadow: 10px 10px 5px grey;
+}
+
