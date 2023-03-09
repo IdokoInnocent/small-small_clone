@@ -118,3 +118,33 @@ body {
   background-color: var(--color-primary);
   color: var(--color-green-btn);
 }
+
+
+/* hero section styling */
+.hero{
+background-color: var(--color-primary);
+}
+.container{
+margin: 0 auto;
+/* background-color: red; */
+text-align: center;
+}
+.container__h1{
+  font-size: 6rem;
+  padding-top: 6rem;
+}
+.container__p{
+  padding: 2rem 3rem;
+  font-size: 2rem;
+}
+.hero__btn{
+ text-decoration: none; 
+ background-color: var(--color-green-btn);
+ font-size: 2rem;
+ font-weight: 1000;
+ color: white;
+ padding: 2rem 5rem;
+ border-radius: 1rem;
+ box-shadow: 0px 5px 0px darkgreen;
+}
+
