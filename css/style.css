@@ -67,6 +67,11 @@ body {
   color: #000;
   font-size: 1.3rem;
   font-weight: 600;
+  transition: all ease 0.6s;
+}
+
+.nav__link:hover {
+  color: var(--color-green);
 }
 
 .nav__link span {
