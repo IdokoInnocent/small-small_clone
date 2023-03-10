@@ -1,61 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>SmallSmall Clone</title>
-  </head>
 
-  <body>
-    <header class="header">
-      <nav class="nav">
-        <img src="img/smallsmall-svglogo.svg" alt="Logo" class="nav__logo" />
-        <div class="nav__bar">
-          <ul class="nav__list">
-            <li class="nav__items">
-              <a href="#" class="nav__link">
-                <span>Rent</span><br />RentSmallSmall
-              </a>
-            </li>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>SmallSmall Clone</title>
+</head>
 
-            <li class="nav__items">
-              <a href="#" class="nav__link">
-                <span>Own</span><br />BuySmallSmall
-              </a>
-            </li>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <img src="img/smallsmall-svglogo.svg" alt="Logo" class="nav__logo" />
+      <div class="nav__bar">
+        <ul class="nav__list">
+          <li class="nav__items">
+            <a href="#" class="nav__link">
+              <span>Rent</span><br />RentSmallSmall
+            </a>
+          </li>
 
-            <li class="nav__items">
-              <a href="#" class="nav__link">
-                <span>Stay nightly</span><br />StaySmallSmall
-              </a>
-            </li>
-          </ul>
+          <li class="nav__items">
+            <a href="#" class="nav__link">
+              <span>Own</span><br />BuySmallSmall
+            </a>
+          </li>
+
+          <li class="nav__items">
+            <a href="#" class="nav__link">
+              <span>Stay nightly</span><br />StaySmallSmall
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav__button">
+        <button class="btn btn--login">Login</button>
+        <button class="btn btn--register">Create Account</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero__section -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="container__h1">Life starts with<br />small steps</h1>
+      <p class="container__p">
+        Whatever stage of your journey, whatever your living needs, <br />
+        we are here to grow with you
+      </p>
+      <div class="hero-buttons">
+        <a href="#" class="hero__btn"><b>Create Account</b></a>
+        <img src="img/apple.svg" alt="" />
+        <img src="img/playstore.svg" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Get Ready Section -->
+  <section class="get-started">
+    <div class="get-started__text">
+      <h2>Ready to get started?</h2>
+      <p>There's a new way</p>
+    </div>
+
+    <div class="row">
+      <div class="col-1">
+        <div class="col-1__img">
+          <img src="img/rent-ss.png" alt="" />
+          <div class="col-1__texts" style="margin-top: 3.5rem; margin-left: 5rem">
+            <p>0% on agency and Legal fees</p>
+            <p style="transform: translateX(6rem)">18 Locations</p>
+            <p>N1.6bn saved on agency and Legal fees</p>
+          </div>
         </div>
-        <div class="nav__button">
-          <button class="btn btn--login">Login</button>
-          <button class="btn btn--register">Create Account</button>
-        </div>
-      </nav>
-    </header>
-    <section class="hero">
-      <div class="container">
-        <h1 class="container__h1">Life starts with<br>small steps</h1>
-        <p class="container__p">
-          Whatever stage of your journey, whatever your living needs, <br> we are
-          here to grow with you
-        </p>
-        <div class="hero-button">
-          <a href="#" class="hero__btn"><b>Create Account</b></a>
-          <img src="img/apple.svg" alt="">
-          <img src="img/playstore.svg" alt="">
+        <div class="col-1__text" style="align-self: flex-start; margin-top: 5rem;">
+          <h1 style="font-size: 5rem; color: #fff">
+            A smart way to live & pay<br />
+            rent flexibly.
+          </h1>
+          <p style="font-size: 3rem; color: #fff; transform: translateY(8rem);">RentSmallSmall</p>
+          <a href="#" class="col-2__link"
+            style="color: #fff; transform: translateY(10rem); display: block; font-size: 2.4rem;">Explore
+            <span style="color: #fff; font-size: 2rem; font-weight: bold;">&rarr;</span></a>
         </div>
       </div>
-    </section>
-  </body>
+      <div class="col-2">
+        <div class="col-2__img col-2__img--1">
+          <img src="img/stay-ss.png" alt="" style="transform: translateY(7rem);">
+          <h2 style="font-size: 4rem; color:  #414042; transform: translateY(10rem);">Affordable nightly<br>stay</h2>
+          <p style="font-size: 3rem; color:  #414042; font-weight: 400; transform: translateY(13rem);">StaySmallSmall
+          </p>
+          <a href="#" class="col-2__link"
+            style="color: #414042; transform: translateY(16rem); display: block; font-size: 2.4rem;">Explore
+            <span style="color: black; font-size: 2rem; font-weight: bold;">&rarr;</span></a>
+        </div>
+
+        <div class="col-2__img col-2__img--2">
+          <img src="img/btl-ss.png" alt="" style="transform: translateY(2rem);">
+          <div style="padding: 5rem;">
+            <h1 style="font-size: 4rem; color: #fff;">Buy real estate & start
+              earning guaranteed
+              rent</h1>
+            <p style=" font-size: 3rem; font-weight: 400; color: #fff; transform: translateY(2rem);">
+              BuySmallSmall</p>
+            <a href="#" class="col-2__link"
+              style="color: #fff; transform: translateY(4rem); display: block; font-size: 2.4rem;">Explore
+              <span style="color: #fff; font-size: 2rem; font-weight: bold;">&rarr;</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rent -->
+  <section class="property property--rent">
+    <div>
+      <h3 style="font-size: 2rem;"><span style="color: #007dc1; font-size: 1.5rem; font-weight: bold;">Rent</span> Small
+        Small</h3>
+      <p style="font-size: 1.6rem; transform: translateY(1rem);">Suscribe and pay monthly</p>
+    </div>
+
+    <div class="property__row">
+      <div class="property__col property__col--1">
+        <img src="img/studio.jpg" alt="studio" class="property__img">
+        <button class="property__btn">Available - <span>now</span></button>
+        <div class="property__details">
+          <p><strong>#65,000</strong>/month</p>
+          <p>1 Bed | 1 Bath</p>
+        </div>
+        <hr>
+        <div class="property__link">
+          <p><a href="#">New Studio apartment 2A at Awo...</a></p>
+          <button class="rent">Rent</button>
+          <!-- <p class="property__location">Awoyaya</p> -->
+        </div>
+        <p class="property__location">Awoyaya</p>
+      </div>
+      <div class="property__col property__col--1">
+        <img src="img/studio.jpg" alt="studio" class="property__img">
+        <button class="property__btn">Available - <span>now</span></button>
+        <div class="property__details">
+          <p><strong>#65,000</strong>/month</p>
+          <p>1 Bed | 1 Bath</p>
+        </div>
+        <hr>
+        <div class="property__link">
+          <p><a href="#">New Studio apartment 2A at Awo...</a></p>
+          <button class="rent">Rent</button>
+
+        </div>
+        <p class="property__location">Awoyaya</p>
+      </div>
+      <div class="property__col property__col--1">
+        <img src="img/studio.jpg" alt="studio" class="property__img">
+        <button class="property__btn">Available - <span>now</span></button>
+        <div class="property__details">
+          <p><strong>#65,000</strong>/month</p>
+          <p>1 Bed | 1 Bath</p>
+        </div>
+        <hr>
+        <div class="property__link">
+          <p><a href="#">New Studio apartment 2A at Awo...</a></p>
+          <button class="rent">Rent</button>
+        </div>
+        <p class="property__location">Awoyaya</p>
+      </div>
+    </div>
+
+
+    </div>
+  </section>
+
+  <!-- Stay -->
+  <section class="property property--stay">
+    <div>
+      <h3 style="font-size: 2rem;"><span style="color: #007dc1; font-size: 1.5rem; font-weight: bold;">Stay</span> Small
+        Small</h3>
+      <p style="font-size: 1.6rem; transform: translateY(1rem);">Subscribe and pay nightly</p>
+    </div>
+
+    <div class="property__row">
+      <div class="property__col property__col--1">
+        <img src="img/room.jpg" alt="studio" class="property__img">
+        <button class="property__btn">Available - <span>now</span></button>
+        <div class="property__details">
+          <p><strong>#65,000</strong>/month</p>
+          <p>1 Bed | 1 Bath</p>
+        </div>
+        <hr>
+        <div class="property__link">
+          <p><a href="#">New Studio apartment 2A at Awo...</a></p>
+          <button class="rent">Rent</button>
+          <!-- <p class="property__location">Awoyaya</p> -->
+        </div>
+        <p class="property__location">Awoyaya</p>
+      </div>
+      <div class="property__col property__col--1">
+        <img src="img/room.jpg" alt="studio" class="property__img">
+        <button class="property__btn">Available - <span>now</span></button>
+        <div class="property__details">
+          <p><strong>#65,000</strong>/month</p>
+          <p>1 Bed | 1 Bath</p>
+        </div>
+        <hr>
+        <div class="property__link">
+          <p><a href="#">New Studio apartment 2A at Awo...</a></p>
+          <button class="rent">Rent</button>
+
+        </div>
+        <p class="property__location">Awoyaya</p>
+      </div>
+      <div class="property__col property__col--1">
+        <img src="img/room.jpg" alt="studio" class="property__img">
+        <button class="property__btn">Available - <span>now</span></button>
+        <div class="property__details">
+          <p><strong>#65,000</strong>/month</p>
+          <p>1 Bed | 1 Bath</p>
+        </div>
+        <hr>
+        <div class="property__link">
+          <p><a href="#">New Studio apartment 2A at Awo...</a></p>
+          <button class="rent">Rent</button>
+        </div>
+        <p class="property__location">Awoyaya</p>
+      </div>
+    </div>
+
+
+    </div>
+  </section>
+
+  <!-- Buy -->
+
+  <section class="property property--buy">
+    <div>
+      <h3 style="font-size: 2rem;"><span style="color: #007dc1; font-size: 1.5rem; font-weight: bold;">Buy</span> Small
+        Small</h3>
+      <p style="font-size: 1.6rem; transform: translateY(1rem);">Own a property today</p>
+    </div>
+
+    <div class="property__row">
+      <div class="property__col property__col--1">
+        <img src="img/bedroom.jpg" alt="studio" class="property__img">
+        <button class="property__btn">Available - <span>now</span></button>
+        <div class="property__details">
+          <p><strong>#65,000</strong>/month</p>
+          <p>1 Bed | 1 Bath</p>
+        </div>
+        <hr>
+        <div class="property__link">
+          <p><a href="#">New Studio apartment 2A at Awo...</a></p>
+          <button class="rent">Rent</button>
+          <!-- <p class="property__location">Awoyaya</p> -->
+        </div>
+        <p class="property__location">Awoyaya</p>
+      </div>
+      <div class="property__col property__col--1">
+        <img src="img/bedroom.jpg" alt="studio" class="property__img">
+        <button class="property__btn">Available - <span>now</span></button>
+        <div class="property__details">
+          <p><strong>#65,000</strong>/month</p>
+          <p>1 Bed | 1 Bath</p>
+        </div>
+        <hr>
+        <div class="property__link">
+          <p><a href="#">New Studio apartment 2A at Awo...</a></p>
+          <button class="rent">Rent</button>
+
+        </div>
+        <p class="property__location">Awoyaya</p>
+      </div>
+      <div class="property__col property__col--1">
+        <img src="img/bedroom.jpg" alt="studio" class="property__img">
+        <button class="property__btn">Available - <span>now</span></button>
+        <div class="property__details">
+          <p><strong>#65,000</strong>/month</p>
+          <p>1 Bed | 1 Bath</p>
+        </div>
+        <hr>
+        <div class="property__link">
+          <p><a href="#">New Studio apartment 2A at Awo...</a></p>
+          <button class="rent">Rent</button>
+        </div>
+        <p class="property__location">Awoyaya</p>
+      </div>
+    </div>
+
+
+    </div>
+  </section>
+</body>
+
 </html>
