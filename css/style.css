@@ -58,8 +58,6 @@ a {
   align-items: center;
 }
 
-.nav__bar {
-}
 .nav__list {
   display: flex;
   gap: 5rem;
@@ -214,9 +212,6 @@ a {
   padding: 0 10rem;
   box-shadow: 1px 1px 5px #000;
   margin-top: 2rem;
-}
-
-.col-1__img {
 }
 
 .col-1__img img {
